@@ -12,6 +12,7 @@ public class TestController {
 	public String testMethod() {
 		
 		System.out.println("Added logger");
+		System.out.println("Added logger");
 		return "hello";
 	}
 
