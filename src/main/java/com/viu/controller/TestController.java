@@ -11,6 +11,7 @@ public class TestController {
 	@GetMapping(value = "/get")
 	public String testMethod() {
 		
+		System.out.println("Added logger");
 		return "hello";
 	}
 
